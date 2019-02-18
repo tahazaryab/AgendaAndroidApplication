@@ -1,0 +1,250 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+
+        android:background="#C5CAE9"><![CDATA[
+    tools:context=".MainActivity">
+
+    ]]>
+
+        >
+        <include
+            android:id="@+id/toolbar"
+            layout="@layout/toolbar"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="100dp"
+            android:text="Upcoming Events"
+            android:onClick="activityMonday"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:textSize="18sp" />
+
+        <LinearLayout
+            android:layout_width="400dp"
+            android:layout_height="50dp"
+            android:background="#FFFFFF"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Events"
+                android:layout_marginLeft="16dp"
+                android:onClick="activityMonday"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Date"
+                android:layout_marginLeft="180dp"
+                android:onClick="activityMonday"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:textSize="18sp" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="400dp"
+            android:layout_height="80dp"
+            android:background="#81D4FA"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/editText"
+                android:layout_width="145dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:ems="10"
+                android:hint="e.g Math Exam"
+                android:inputType="textPersonName" />
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="70dp"
+                android:hint="Select a date"
+                android:id="@+id/tvDate"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="400dp"
+            android:layout_height="80dp"
+            android:background="#80CBC4"
+            android:orientation="horizontal">
+
+
+            <EditText
+                android:id="@+id/editText7"
+                android:layout_width="145dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:ems="10"
+                android:hint="e.g Contest"
+                android:inputType="textPersonName" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="70dp"
+                android:hint="Select a date"
+                android:id="@+id/tvDate2"/>
+
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="400dp"
+            android:layout_height="80dp"
+            android:background="#FFAB91"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/editText2"
+                android:layout_width="145dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:ems="10"
+                android:hint="e.g Festival"
+                android:inputType="textPersonName" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="70dp"
+                android:hint="Select a date"
+                android:id="@+id/tvDate3"/>
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="400dp"
+            android:layout_height="80dp"
+            android:background="#F48FB1"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/editText3"
+                android:layout_width="145dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:ems="10"
+                android:hint="e.g Parade"
+                android:inputType="textPersonName" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="70dp"
+                android:hint="Select a date"
+                android:id="@+id/tvDate4"/>
+
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="400dp"
+            android:layout_height="80dp"
+            android:background="#A5D6A7"
+            android:orientation="horizontal">
+
+
+            <EditText
+                android:id="@+id/editText4"
+                android:layout_width="145dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:ems="10"
+                android:hint="e.g Celebration"
+                android:inputType="textPersonName" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="70dp"
+                android:hint="Select a date"
+                android:id="@+id/tvDate5"/>
+
+
+
+
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="400dp"
+            android:layout_height="80dp"
+            android:background="#9FA8DA"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/editText5"
+                android:layout_width="145dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:ems="10"
+                android:hint="e.g Birthday"
+                android:inputType="textPersonName" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="70dp"
+                android:hint="Select a date"
+                android:id="@+id/tvDate6"/>
+
+
+
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/clearbutton"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:background="#FFFFFF"
+            android:onClick="clear"
+            android:text="Clear"
+            android:textColor="#000000" />
+
+
+
+
+
+
+    </LinearLayout>
+
+</ScrollView>
+

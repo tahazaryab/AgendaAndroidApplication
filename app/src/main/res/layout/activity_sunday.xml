@@ -1,0 +1,274 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+
+        android:background="#C5CAE9"><![CDATA[
+    tools:context=".MainActivity">
+
+    ]]>
+
+        >
+        <include
+            android:id="@+id/toolbar"
+            layout="@layout/toolbar"/>
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="100dp"
+            android:text="Sunday Schedule"
+            android:onClick="activityMonday"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:textSize="25sp" />
+
+        <LinearLayout
+            android:layout_width="450dp"
+            android:layout_height="50dp"
+            android:background="#FFFFFF"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Task"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="12dp"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Complete"
+                android:layout_marginLeft="165dp"
+                android:layout_marginTop="12dp"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:textSize="18sp" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="450dp"
+            android:layout_height="80dp"
+            android:background="#81D4FA"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/editText"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="10dp"
+                android:ems="10"
+                android:hint="e.g Math homework"
+                android:inputType="textPersonName" />
+
+
+
+            <CheckBox
+                android:id="@+id/checkBox2"
+                android:layout_width="50dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="10dp"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="450dp"
+            android:layout_height="80dp"
+            android:background="#80CBC4"
+            android:orientation="horizontal">
+
+
+            <EditText
+                android:id="@+id/editText7"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="10dp"
+                android:ems="10"
+                android:hint="e.g Study for science"
+                android:inputType="textPersonName" />
+
+            <CheckBox
+                android:id="@+id/checkBox9"
+                android:layout_width="50dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="10dp"
+                android:layout_height="wrap_content" />
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="450dp"
+            android:layout_height="80dp"
+            android:background="#FFAB91"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/editText2"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="10dp"
+                android:ems="10"
+                android:hint="e.g Read a book"
+                android:inputType="textPersonName" />
+            <CheckBox
+                android:id="@+id/checkBox"
+                android:layout_width="50dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="10dp"
+                android:layout_height="wrap_content" />
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="450dp"
+            android:layout_height="80dp"
+            android:background="#F48FB1"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/editText3"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="10dp"
+                android:ems="10"
+                android:hint="e.g History worksheet"
+                android:inputType="textPersonName" />
+            <CheckBox
+                android:id="@+id/checkBox3"
+                android:layout_width="50dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="10dp"
+                android:layout_height="wrap_content" />
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="450dp"
+            android:layout_height="80dp"
+            android:background="#A5D6A7"
+            android:orientation="horizontal">
+
+
+            <EditText
+                android:id="@+id/editText4"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="10dp"
+                android:ems="10"
+                android:hint="e.g English essay"
+                android:inputType="textPersonName" />
+            <CheckBox
+                android:id="@+id/checkBox5"
+                android:layout_width="50dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="10dp"
+                android:layout_height="wrap_content" />
+
+
+
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="450dp"
+            android:layout_height="80dp"
+            android:background="#9FA8DA"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/editText5"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="10dp"
+                android:ems="10"
+                android:hint="e.g French worksheet"
+                android:inputType="textPersonName" />
+            <CheckBox
+                android:id="@+id/checkBox6"
+                android:layout_width="50dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="10dp"
+                android:layout_height="wrap_content" />
+
+
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="450dp"
+            android:layout_height="80dp"
+            android:background="#CE93D8"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/editText10"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="10dp"
+                android:ems="10"
+                android:hint="e.g Get form signed"
+                android:inputType="textPersonName" />
+            <CheckBox
+                android:id="@+id/checkBox10"
+                android:layout_width="50dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="10dp"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btn"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:background="#FFFFFF"
+            android:onClick="clear"
+            android:text="Clear"
+            android:textColor="#000000" />
+
+
+
+
+
+
+    </LinearLayout>
+
+</ScrollView>
+

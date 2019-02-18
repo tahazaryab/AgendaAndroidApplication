@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+
+    android:background="#7986CB"><![CDATA[
+    tools:context=".MainActivity">
+
+ ]]>
+
+<include
+    android:id="@+id/toolbar"
+    layout="@layout/toolbar"/>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="240dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="200dp"
+        android:layout_height="70dp"
+        android:text="Weekly Schedule"
+        android:textSize="18sp"
+        android:onClick="mainactivity2"/>
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="240dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="24dp"
+        android:layout_height="70dp"
+        android:textSize="18sp"
+        android:text="Events"
+        android:onClick="events"/>
+</LinearLayout>
